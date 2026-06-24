@@ -9,7 +9,7 @@ const projects = [
     description:
       "Redesigned employee share management experience with simplified workflows and improved usability.",
     tags: ["Web", "Finance"],
-    image: "assets/images/projects/esop/1.png",
+    image: "assets/images/projects/esop/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "Internal Project",
@@ -23,33 +23,39 @@ const projects = [
     designProcess: [
       {
         icon: "🔍",
-        title: "Research",
+        title: "Research & Discovery",
         description:
-          "Studied financial dashboard designs on Figma, Dribbble, Behance, and other platforms. Analyzed requirements and created user flows.",
+          "Studied financial dashboard designs on Figma, Dribbble, and Behance. Conducted stakeholder interviews to gather business requirements and mapped complex equity management user flows.",
+      },
+      {
+        icon: "✏️",
+        title: "Wireframing & Architecture",
+        description:
+          "Created low-fidelity wireframes to map out information architecture, ensuring heavy financial data remained readable and transaction flows were clear.",
       },
       {
         icon: "🎨",
-        title: "Design",
+        title: "UI Design & Component System",
         description:
-          "Designed complete user and admin interfaces in Figma with reusable components and color themes.",
+          "Designed complete user and admin interfaces in Figma with a dedicated design system consisting of reusable components, accessible typographic hierarchies, and dual color themes.",
       },
       {
         icon: "✅",
-        title: "Testing",
+        title: "Usability Testing",
         description:
-          "Validated designs with stakeholders at every stage to ensure alignment with business requirements.",
+          "Validated prototype designs with administrative internal stakeholders at every milestone to ensure compliance, accuracy, and alignment with business goals.",
       },
       {
         icon: "💻",
-        title: "Development",
+        title: "Frontend Development",
         description:
-          "Developed the frontend using React based on approved designs.",
+          "Developed the semantic, fully responsive frontend using React based strictly on the approved Figma designs.",
       },
       {
         icon: "🚀",
-        title: "Handover",
+        title: "Deployment & Handover",
         description:
-          "Pushed code to Bitbucket and handed over the project to the backend development team.",
+          "Optimized the codebase, pushed production-ready code to Bitbucket, and closely collaborated with the backend engineering team for seamless API integration.",
       },
     ],
     features: [
@@ -93,7 +99,7 @@ const projects = [
     description:
       "Analytics dashboard that monitors customer WhatsApp interactions, concerns, and service performance.",
     tags: ["Web", "Dashboard"],
-    image: "assets/images/projects/whatsapp-db/1.png",
+    image: "assets/images/projects/whatsapp-db/mockup-1.jpg",
     role: "UI/UX Designer & Developer",
     duration: "3 months",
     client: "TJC Group",
@@ -105,32 +111,43 @@ const projects = [
         "Designed and developed a unified analytics dashboard that consolidates WhatsApp conversations, sentiment insights, and operational metrics into a single platform.",
     },
     designProcess: [
-    {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Explored analytics dashboard patterns and reporting systems to understand customer service requirements.'
-    },
-    {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Designed the complete dashboard in Figma with reusable components and data visualization layouts.'
-    },
-    {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Conducted regular design reviews with stakeholders to ensure requirements were met.'
-    },
-    {
-        icon: '💻',
-        title: 'Development',
-        description: 'Built the frontend using Next.js and implemented dashboard interactions and visualizations.'
-    },
-    {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Pushed code to Bitbucket and handed over the project to the team.'
-    }
-],
+      {
+        icon: "🔍",
+        title: "User Research & Benchmarking",
+        description:
+          "Explored customer analytics dashboard patterns and enterprise reporting systems to understand support agent pain points and contextual WhatsApp metadata requirements.",
+      },
+      {
+        icon: "🧱",
+        title: "Data Architecture & Wireframing",
+        description:
+          "Drafted layouts focusing heavily on data density, grouping complex conversation logs and metric cards logically for rapid scannability.",
+      },
+      {
+        icon: "🎨",
+        title: "High-Fidelity Design",
+        description:
+          "Designed the complete dashboard UI in Figma, utilizing reusable chart components, consistent visual hierarchy, and precise data visualization layouts.",
+      },
+      {
+        icon: "✅",
+        title: "Stakeholder Validation",
+        description:
+          "Conducted structured design reviews with TJC Group stakeholders to evaluate data accuracy configurations and refine filtering controls.",
+      },
+      {
+        icon: "💻",
+        title: "Full-Stack Development",
+        description:
+          "Built the production frontend using Next.js, engineered complex interactive data visualizations via Apex Charts, and integrated database queries with MSSQL.",
+      },
+      {
+        icon: "🚀",
+        title: "Production Handover",
+        description:
+          "Documented data models and component architecture, committed clean code to Bitbucket, and deployed features to the team environment.",
+      },
+    ],
     features: [
       {
         icon: "💬",
@@ -172,7 +189,7 @@ const projects = [
     description:
       "AI-powered conversational assistant helping customers manage orders, payments, and support requests.",
     tags: ["Web", "Ecommerce"],
-    image: "assets/images/projects/shopping-assistant/1.png",
+    image: "assets/images/projects/shopping-assistant/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "1.5 months",
     client: "ShopLC",
@@ -184,22 +201,31 @@ const projects = [
         "Developed an intelligent conversational shopping assistant that guides users through product discovery, order management, and support interactions through a natural chat experience.",
     },
     designProcess: [
-    {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
-    },
-    {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Integrated the frontend with backend services and validated customer journeys and chatbot workflows.'
-    },
-    {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed implementation for integration into the ShopLC platform.'
-    }
-],
+      {
+        icon: "🔍",
+        title: "UX Review & Flow Analysis",
+        description:
+          "Analyzed the provided UI designs alongside e-commerce chatbot conventions to evaluate intuitive messaging patterns, bubble layouts, and quick-reply placements.",
+      },
+      {
+        icon: "💻",
+        title: "Interface Development",
+        description:
+          "Implemented pixel-perfect responsive layouts utilizing semantic HTML, modular CSS, Bootstrap grids, and dynamic vanilla JavaScript for fluid animations.",
+      },
+      {
+        icon: "✅",
+        title: "Integration & Testing",
+        description:
+          "Integrated the custom frontend interface with core AI backend endpoints; heavily validated critical conversational customer journeys, cart checkout transitions, and fallback states.",
+      },
+      {
+        icon: "🚀",
+        title: "Platform Handover",
+        description:
+          "Packaged lightweight, dependency-optimized code blocks and handed them over directly to the ShopLC development teams for seamless native integration.",
+      },
+    ],
     features: [
       {
         icon: "🤖",
@@ -228,7 +254,7 @@ const projects = [
     gallery: [
       "assets/images/projects/shopping-assistant/1.png",
       "assets/images/projects/shopping-assistant/2.png",
-      "assets/images/projects/shopping-assistant/3.png"
+      "assets/images/projects/shopping-assistant/3.png",
     ],
   },
   {
@@ -238,7 +264,7 @@ const projects = [
     description:
       "Customer insights dashboard that analyzes feedback, sentiments, and trends to support business decisions.",
     tags: ["Web", "Dashboard"],
-    image: "assets/images/projects/voc/1.png",
+    image: "assets/images/projects/voc/mockup-1.jpg",
     role: "UI/UX Designer & Frontend Developer",
     duration: "2.5 months",
     client: "Internal Project",
@@ -250,32 +276,43 @@ const projects = [
         "Created a centralized Voice of Customer platform that aggregates feedback, performs sentiment analysis, and provides business intelligence through interactive dashboards.",
     },
     designProcess: [
-    {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Studied customer analytics and dashboard platforms to define reporting and sentiment analysis workflows.'
-    },
-    {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Designed the complete dashboard experience in Figma with reusable components and visual consistency.'
-    },
-    {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Reviewed designs continuously with stakeholders to validate requirements.'
-    },
-    {
-        icon: '💻',
-        title: 'Development',
-        description: 'Developed the platform using Next.js and integrated APIs for analytics and insights.'
-    },
-    {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Pushed code to Bitbucket and handed over the completed project to the team.'
-    }
-],
+      {
+        icon: "🔍",
+        title: "Research & Workflows",
+        description:
+          "Studied industry-standard customer analytics and complex NLP data aggregation dashboards to define reporting hierarchies and sentiment scoring workflows.",
+      },
+      {
+        icon: "📐",
+        title: "Information Architecture",
+        description:
+          "Created an optimized navigational flow mapping how chaotic omnichannel data streams merge into organized visual metrics.",
+      },
+      {
+        icon: "🎨",
+        title: "UI Design System",
+        description:
+          "Designed the complete responsive dashboard ecosystem in Figma, establishing micro-interactions, distinct sentiment color indicators, and cohesive styling presets.",
+      },
+      {
+        icon: "✅",
+        title: "Stakeholder Review",
+        description:
+          "Reviewed active prototypes with operational and management stakeholders to iteratively tune user permissions, data groupings, and metric filter criteria.",
+      },
+      {
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Engineered the responsive dashboard application via Next.js, linking layout controls with secure database endpoints and generating rich visualizations using Apex Charts.",
+      },
+      {
+        icon: "🚀",
+        title: "Project Delivery",
+        description:
+          "Pushed structured code repositories to Bitbucket, prepared detailed architecture documentation, and transferred production details to the engineering wing.",
+      },
+    ],
     features: [
       {
         icon: "📣",
@@ -317,7 +354,7 @@ const projects = [
     description:
       "AI-powered content management system that generates and publishes product title and content automatically",
     tags: ["Web", "AI"],
-    image: "assets/images/projects/genai/1.png",
+    image: "assets/images/projects/genai/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "ShopLC",
@@ -329,22 +366,31 @@ const projects = [
         "Developed an AI-powered CMS that automatically generates product titles, descriptions, and marketing content, significantly improving content production efficiency.",
     },
     designProcess: [
-    {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI in Next.js.'
-    },
-    {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Integrated the frontend with AI-powered backend services and validated content generation workflows.'
-    },
-    {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed application to the DevOps team for deployment.'
-    }
-],
+      {
+        icon: "🔍",
+        title: "UX Flow Discovery",
+        description:
+          "Evaluated common generative AI prompting interfaces and catalog systems to conceptualize a fast, batch-oriented user flow optimized for internal content writers.",
+      },
+      {
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Translated complex generation screens and side-by-side editing panes into fully responsive, semantic, and interactive Next.js interfaces.",
+      },
+      {
+        icon: "✅",
+        title: "API Integration & Testing",
+        description:
+          "Wired frontend UI hooks into LLM backend infrastructure, conducting strict testing on asynchronous processing behaviors, streaming responses, and generation error bounds.",
+      },
+      {
+        icon: "🚀",
+        title: "DevOps Deployment",
+        description:
+          "Packaged containerized builds and transferred the finalized code ecosystem over to the ShopLC DevOps team for staging rollout and monitoring.",
+      },
+    ],
     features: [
       {
         icon: "🤖",
@@ -386,7 +432,7 @@ const projects = [
     description:
       "AI-powered logistics platform that identifies cost-effective transportation options to save time and expenses.",
     tags: ["Web"],
-    image: "assets/images/projects/lc-miles/1.png",
+    image: "assets/images/projects/lc-miles/mockup-1.jpg",
     role: "UI/UX Designer & Developer",
     duration: "3 months",
     client: "ShopLC",
@@ -398,27 +444,37 @@ const projects = [
         "Created a logistics intelligence platform that analyzes route and carrier data to recommend the most cost-effective and efficient shipping options.",
     },
     designProcess: [
-    {
-        icon: '💻',
-        title: 'Development',
-        description: 'Designed and implemented the single-page application using AI-assisted tools including Gemini and ChatGPT, based on project requirements.'
-    },
-    {
-        icon: '🔗',
-        title: 'Integration',
-        description: 'Connected the frontend with Python-based APIs developed by the backend team.'
-    },
-    {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Performed end-to-end validation of route optimization and logistics workflows.'
-    },
-    {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed application to the DevOps team for deployment.'
-    }
-],
+      {
+        icon: "🔍",
+        title: "Requirement Gathering",
+        description:
+          "Interviewed logistics coordinators to map parameters required for precise routing, such as shipping volume restrictions, transit SLAs, and carrier rates.",
+      },
+      {
+        icon: "💡",
+        title: "AI-Assisted Development",
+        description:
+          "Designed and rapidly implemented an interactive single-page application dashboard using Next.js, leveraging tools like Gemini and ChatGPT to fast-track boilerplate layout rendering.",
+      },
+      {
+        icon: "🔗",
+        title: "API Endpoint Integration",
+        description:
+          "Mapped and bound the UI elements to live Python-based geographic route optimization engines and machine learning APIs engineered by the backend architecture squad.",
+      },
+      {
+        icon: "✅",
+        title: "E2E Testing & Validation",
+        description:
+          "Executed extensive end-to-end validation tracking lifecycle runs of route calculations, historical pricing comparisons, and data edge cases.",
+      },
+      {
+        icon: "🚀",
+        title: "Deployment Coordination",
+        description:
+          "Delivered optimized codebases directly to the specialized ShopLC DevOps division for reliable containerized server implementation.",
+      },
+    ],
     features: [
       {
         icon: "🚚",
@@ -446,7 +502,7 @@ const projects = [
     ],
     gallery: [
       "assets/images/projects/lc-miles/1.png",
-      "assets/images/projects/lc-miles/2.png"
+      "assets/images/projects/lc-miles/2.png",
     ],
   },
   {
@@ -456,7 +512,7 @@ const projects = [
     description:
       "Idea management platform enabling employees to submit, explore, and implement innovations across the organization.",
     tags: ["Web"],
-    image: "assets/images/projects/innov8/1.png",
+    image: "assets/images/projects/innov8/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "Internal Project",
@@ -469,20 +525,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "UX Review & Gamification",
+        description:
+          "Analyzed internal crowd-sourcing solutions and structured submission loops to map out clear social voting systems and progression milestones.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Validated all user flows and platform functionality.'
+        icon: "💻",
+        title: "UI Implementation",
+        description:
+          "Coded clean, accessible, and responsive layouts matching provided mockups, utilizing semantic HTML5, custom CSS styling, Bootstrap components, and modular JavaScript.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed frontend to the development team for further enhancements.'
-      }
+        icon: "✅",
+        title: "Flow Validation",
+        description:
+          "Conducted rigorous verification across critical path journeys, assessing form validation limits, comment streams, and administrative tracking pipelines.",
+      },
+      {
+        icon: "🚀",
+        title: "Engineering Delivery",
+        description:
+          "Handed over cleanly commented, scalable web assets directly to the corporate engineering department for final application tier attachment.",
+      },
     ],
     features: [
       {
@@ -525,7 +590,7 @@ const projects = [
     description:
       "Learning management platform enabling employees to access courses, assessments, and training programs.",
     tags: ["Web", "Education"],
-    image: "assets/images/projects/lms/1.png",
+    image: "assets/images/projects/lms/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2.5 months",
     client: "Internal Project",
@@ -538,25 +603,35 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Reviewed LMS platforms and learning dashboard designs across Figma, Dribbble, Behance, and industry products.'
+        icon: "🔍",
+        title: "Comparative Research",
+        description:
+          "Reviewed industry-leading LMS solutions and academic interfaces across Figma, Dribbble, and Behance to isolate core mechanics for dashboard accessibility and retention tracking.",
       },
       {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Created complete LMS screens, component libraries, and design systems in Figma.'
+        icon: "📐",
+        title: "User Experience Mapping",
+        description:
+          "Mapped student learning pathways and course creation cycles for corporate instructors, balancing simple interaction loops with performance metric reporting.",
       },
       {
-        icon: '👥',
-        title: 'Testing',
-        description: 'Conducted design reviews with stakeholders throughout the process.'
+        icon: "🎨",
+        title: "UI Design & Libraries",
+        description:
+          "Created modular design files in Figma outlining intuitive course library lists, quiz view cards, user progress states, and complete atomic component libraries.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the finalized design system and screens to the frontend development team.'
-      }
+        icon: "👥",
+        title: "Stakeholder Critiques",
+        description:
+          "Conducted iterative, high-fidelity user walkthrough loops with HR training executives to verify navigation hierarchies and customize layout adjustments.",
+      },
+      {
+        icon: "🚀",
+        title: "Design Handover",
+        description:
+          "Delivered optimized design specification packages containing fully documented screens, tokens, and style definitions directly to the internal development teams.",
+      },
     ],
     features: [
       {
@@ -599,7 +674,7 @@ const projects = [
     description:
       "Inventory planning solution that helps manage gemstone stock levels based on demand and sales insights.",
     tags: ["Web"],
-    image: "assets/images/projects/gemstone-inventory/1.png",
+    image: "assets/images/projects/gemstone-inventory/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "ShopLC",
@@ -612,25 +687,35 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Designed and implemented the single-page application using AI-assisted tools including Gemini and ChatGPT.'
+        icon: "🔍",
+        title: "Workflow Mapping",
+        description:
+          "Shadowed stock inventory planners to understand product sorting parameters, gemstone carat sizes, supply metrics, and manual data-entry fatigue.",
       },
       {
-        icon: '🔗',
-        title: 'Integration',
-        description: 'Connected the frontend with Python-based forecasting APIs developed by the backend team.'
+        icon: "💻",
+        title: "AI-Assisted Engineering",
+        description:
+          "Rapidly built and polished a rich single-page data application using Next.js, blending automated assistance from tools like Gemini and ChatGPT with responsive UI constraints.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Validated inventory planning workflows and forecasting functionality.'
+        icon: "🔗",
+        title: "API Framework Integration",
+        description:
+          "Wired frontend application structures directly into pythonic data prediction modules and predictive sales forecast endpoints engineered by internal data teams.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the application to the DevOps team for deployment.'
-      }
+        icon: "✅",
+        title: "Validation Testing",
+        description:
+          "Conducted rigorous testing cycles verifying dashboard accuracy parameters, dataset variations, and overall system processing capabilities.",
+      },
+      {
+        icon: "🚀",
+        title: "DevOps Delivery",
+        description:
+          "Packaged clean, structured files and passed the finalized application layout directly to DevOps pipelines for server deployment.",
+      },
     ],
     features: [
       {
@@ -657,7 +742,7 @@ const projects = [
       { value: "-15%", label: "Stockouts" },
       { value: "+20%", label: "Profit Margin" },
     ],
-   gallery: [
+    gallery: [
       "assets/images/projects/gemstone-inventory/1.png",
       "assets/images/projects/gemstone-inventory/2.png",
       "assets/images/projects/gemstone-inventory/3.png",
@@ -673,7 +758,7 @@ const projects = [
     description:
       "Data-driven platform that helps teams optimize inventory planning through predictive demand analysis",
     tags: ["Web"],
-    image: "assets/images/projects/demand-forecast/1.png",
+    image: "assets/images/projects/demand-forecast/mockup-1.jpg",
     role: "UI/UX Designer & Frontend Developer",
     duration: "3 months",
     client: "ShopLC",
@@ -686,30 +771,41 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Explored forecasting and analytics dashboards on Figma, Dribbble, Behance, and similar platforms.'
+        icon: "🔍",
+        title: "Market & UX Research",
+        description:
+          "Explored predictive financial layout engines and deep analytics patterns on Figma, Dribbble, and Behance to find optimal layout methodologies for heavy datasets.",
       },
       {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Created complete dashboard experiences in Figma with reusable components and visual consistency.'
+        icon: "📐",
+        title: "Layout Architecture",
+        description:
+          "Translated dense spreadsheet tasks into intuitive multi-view screens, isolating forecasting controls and graph settings cleanly.",
       },
       {
-        icon: '👥',
-        title: 'Testing',
-        description: 'Conducted design reviews with stakeholders throughout the process.'
+        icon: "🎨",
+        title: "Figma UI Prototyping",
+        description:
+          "Created comprehensive dashboard mockups in Figma with strict atomic component compliance, high-contrast layouts, and clean typographic grids.",
       },
       {
-        icon: '🚀',
-        title: 'Development',
-        description: 'Built the frontend using Next.js and integrated forecasting APIs.'
+        icon: "👥",
+        title: "Iterative Review Loops",
+        description:
+          "Presented high-fidelity interactive screens to core business analyst squads to map user workflows and confirm accuracy tolerances.",
       },
       {
-        icon: '📦',
-        title: 'Handover',
-        description: 'Pushed code to Bitbucket and handed over the project to the team.'
-      }
+        icon: "💻",
+        title: "Next.js Frontend Build",
+        description:
+          "Programmed the complete frontend tier using Next.js, integrating complex data chart systems with Apex Charts and setting up MSSQL queries.",
+      },
+      {
+        icon: "📦",
+        title: "Handover Orchestration",
+        description:
+          "Committed clean production code blocks to Bitbucket repositories, transitioning details over to data engineers for backend hooks.",
+      },
     ],
     features: [
       {
@@ -738,7 +834,7 @@ const projects = [
     gallery: [
       "assets/images/projects/demand-forecast/1.png",
       "assets/images/projects/demand-forecast/2.png",
-      "assets/images/projects/demand-forecast/3.png"
+      "assets/images/projects/demand-forecast/3.png",
     ],
   },
   {
@@ -748,7 +844,7 @@ const projects = [
     description:
       "Creative portfolio platform showcasing branding, photography, and design work from the studio team.",
     tags: ["Web", "Portfolio"],
-    image: "assets/images/projects/visualoom/1.png",
+    image: "assets/images/projects/visualoom/mockup-1.jpg",
     role: "UI/UX Designer & Frontend Developer",
     duration: "2 months",
     client: "Visualoom Studio",
@@ -761,20 +857,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Designed and developed the entire website using AI-assisted tools including Gemini and ChatGPT with HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "Creative Discovery",
+        description:
+          "Analyzed high-end digital design agency portfolios and modern layout systems to determine visual expectations, grid sizing, and media delivery styles.",
       },
       {
-        icon: '👥',
-        title: 'Testing',
-        description: 'Conducted reviews with business stakeholders and studio team members.'
+        icon: "💻",
+        title: "Full-Stack Development",
+        description:
+          "Designed and built the visual portfolio site utilizing AI support tools including Gemini and ChatGPT alongside HTML5, custom CSS layout, Bootstrap frames, and JS animations.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the final website to the DevOps team for deployment.'
-      }
+        icon: "👥",
+        title: "Internal Feedback Reviews",
+        description:
+          "Conducted rapid review sessions with agency directors and studio creatives to tune interactive galleries, hover effects, and responsive asset scales.",
+      },
+      {
+        icon: "🚀",
+        title: "DevOps Handover",
+        description:
+          "Transferred optimized static structures and asset bundles directly over to the infrastructure team for fast production server hosting.",
+      },
     ],
     features: [
       {
@@ -816,7 +921,7 @@ const projects = [
     description:
       "Modernized corporate website with an improved user experience, visual design, and responsive layout.",
     tags: ["Web"],
-    image: "assets/images/projects/vgl-website/1.png",
+    image: "assets/images/projects/vgl-website/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2.5 months",
     client: "Vaibhav Global Ltd",
@@ -829,20 +934,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "Brand & UI Evaluation",
+        description:
+          "Analyzed the company's legacy layout structures and shareholder communication points to optimize cross-device user flows and typography choices.",
       },
       {
-        icon: '🔍',
-        title: 'Testing',
-        description: 'Verified responsiveness, performance, and functionality across devices.'
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Translated updated visual layouts into clean code using structured HTML5, custom optimized CSS grid setups, Bootstrap, and interactive Javascript elements.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed frontend to the development team.'
-      }
+        icon: "🔍",
+        title: "Cross-Device Validation",
+        description:
+          "Conducted intensive testing routines covering responsive breakpoint shifts, browser rendering engines, page speeds, and SEO keyword configurations.",
+      },
+      {
+        icon: "🚀",
+        title: "Core Team Delivery",
+        description:
+          "Packaged structured template files and design libraries, handing over clean components to core application developers.",
+      },
     ],
     features: [
       {
@@ -884,7 +998,7 @@ const projects = [
     description:
       "Content-focused blog experience designed to improve engagement, readability, and content discovery.",
     tags: ["Web", "Blog"],
-    image: "assets/images/projects/blog-site/1.png",
+    image: "assets/images/projects/blog-site/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "1.5 months",
     client: "ShopLC",
@@ -897,25 +1011,35 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Explored blog and content-focused interfaces on Figma, Dribbble, Behance, and similar platforms.'
+        icon: "🔍",
+        title: "Content Platform Research",
+        description:
+          "Explored high-engagement digital publication architectures on Figma, Dribbble, and Behance to isolate best practices for content density and typography settings.",
       },
       {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Created blog listing and article detail page designs in Figma with reusable components.'
+        icon: "📐",
+        title: "Information Architecture",
+        description:
+          "Restructured the article categorizations and user tags to generate seamless related-post patterns and lower initial page exit rates.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Conducted design reviews with stakeholders to ensure requirements were met.'
+        icon: "🎨",
+        title: "High-Fidelity Interface Design",
+        description:
+          "Created modular layouts in Figma covering modern text feeds, article detail columns, and interactive author zones utilizing clean grid tokens.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered finalized designs to the frontend development team.'
-      }
+        icon: "✅",
+        title: "Stakeholder Reviews",
+        description:
+          "Reviewed interactive Figma design mockups directly with editorial and SEO stakeholders to adjust text setups and marketing call-to-action blocks.",
+      },
+      {
+        icon: "🚀",
+        title: "Engineering Delivery",
+        description:
+          "Exported pixel-perfect asset definitions and comprehensive style component specs over to the frontend development squads.",
+      },
     ],
     features: [
       {
@@ -947,7 +1071,7 @@ const projects = [
       "assets/images/projects/blog-site/2.png",
       "assets/images/projects/blog-site/3.png",
       "assets/images/projects/blog-site/4.png",
-      "assets/images/projects/blog-site/5.png"
+      "assets/images/projects/blog-site/5.png",
     ],
   },
   {
@@ -957,7 +1081,7 @@ const projects = [
     description:
       "Innovation platform encouraging students and educators to submit and collaborate on new ideas.",
     tags: ["Web"],
-    image: "assets/images/projects/hackadmic/1.png",
+    image: "assets/images/projects/hackadmic/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2.5 months",
     client: "Educational Institute",
@@ -970,30 +1094,41 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '🔍',
-        title: 'Research',
-        description: 'Studied modern landing pages and innovation platforms across Figma, Dribbble, and Behance.'
+        icon: "🔍",
+        title: "Contextual Discovery",
+        description:
+          "Studied ed-tech platforms and hackathon workspaces across Figma, Dribbble, and Behance to build engaging submission cards and project timelines.",
       },
       {
-        icon: '🎨',
-        title: 'Design',
-        description: 'Designed the complete application in Adobe XD with a structured design system and color theme.'
+        icon: "📐",
+        title: "UX Flow Blueprinting",
+        description:
+          "Mapped out clear user flows tracking how a student presents a design concept, invites peers, and accesses mentor support threads.",
       },
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the frontend using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🎨",
+        title: "Interface Prototyping",
+        description:
+          "Designed high-fidelity mockups in Adobe XD using structured components, vivid brand accent lines, and clear visual information groups.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Validated all workflows and functionality.'
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Coded responsive, interactive interfaces utilizing web-standards HTML5, modular CSS patterns, Bootstrap wrappers, and dynamic Javascript views.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the project to the development team for further enhancements.'
-      }
+        icon: "✅",
+        title: "System Evaluation",
+        description:
+          "Tested complete portal loops including form submission checks, profile link tracking, and adaptive grid sizing across multiple mobile device screens.",
+      },
+      {
+        icon: "🚀",
+        title: "Project Handover",
+        description:
+          "Transferred clean front-end assets and verified UI templates over to development squads for database wiring.",
+      },
     ],
     features: [
       {
@@ -1036,7 +1171,7 @@ const projects = [
     description:
       "Modern e-commerce experience for showcasing and selling smart watches and smart rings.",
     tags: ["Web", "Ecommerce"],
-    image: "assets/images/projects/soulsmart/1.png",
+    image: "assets/images/projects/soulsmart/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "Soulsmart Inc.",
@@ -1049,20 +1184,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "E-Commerce Audit",
+        description:
+          "Audited the existing layout issues, isolating complex checkout barriers, drop-offs, and sizing select limitations on premium wearables.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Verified user flows, responsiveness, and shopping experiences.'
+        icon: "💻",
+        title: "Interface Engineering",
+        description:
+          "Transformed optimized layouts into responsive, lightweight production code via structured HTML5, custom CSS styling rules, Bootstrap, and Javascript utilities.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the frontend to the development team.'
-      }
+        icon: "✅",
+        title: "User Flow Validation",
+        description:
+          "Conducted intensive validation loops covering multi-step checkout processes, dynamic filter lists, and device performance metrics.",
+      },
+      {
+        icon: "🚀",
+        title: "Engineering Delivery",
+        description:
+          "Bundled cleanly styled components and responsive templates, handoff-ready for integration into backend systems.",
+      },
     ],
     features: [
       {
@@ -1105,7 +1249,7 @@ const projects = [
     description:
       "Collaborative platform where jewellery design ideas are collected, evaluated, and transformed into products.",
     tags: ["Web"],
-    image: "assets/images/projects/draw-a-design/1.png",
+    image: "assets/images/projects/draw-a-design/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2.5 months",
     client: "ShopLC",
@@ -1118,20 +1262,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "Co-Creation Research",
+        description:
+          "Reviewed crowd-sourced design systems and artist portals to discover intuitive upload behaviors and secure transparency tools for voting pools.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Validated submission, voting, and tracking workflows.'
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Coded responsive, visually engaging web assets from source specs using semantic HTML5 code, modular CSS layouts, Bootstrap grids, and custom JavaScript loops.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the frontend to the development team for further enhancements.'
-      }
+        icon: "✅",
+        title: "User Path Validation",
+        description:
+          "Validated upload validation systems, gallery sort parameters, up-voting triggers, and design tracking dashboard status updates.",
+      },
+      {
+        icon: "🚀",
+        title: "Repository Handover",
+        description:
+          "Delivered optimized codebases to the master development pool for final production system wireframe attachments.",
+      },
     ],
     features: [
       {
@@ -1174,7 +1327,7 @@ const projects = [
     description:
       "Redesigned corporate website experience with a modern interface, improved navigation, and enhanced usability.",
     tags: ["Web"],
-    image: "assets/images/projects/sts/1.png",
+    image: "assets/images/projects/sts/mockup-1.jpg",
     role: "UI/UX Designer",
     duration: "2 months",
     client: "STS Organization",
@@ -1187,20 +1340,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Implemented the provided UI using HTML, CSS, Bootstrap, and JavaScript.'
+        icon: "🔍",
+        title: "UX & Navigation Audit",
+        description:
+          "Analyzed the old layout architecture to evaluate user click behaviors, pinpointing drop-offs and navigation hierarchy issues.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Conducted cross-device and functional testing.'
+        icon: "💻",
+        title: "Frontend Build",
+        description:
+          "Implemented the fully accessible layouts using responsive HTML5 structures, cleanly organized CSS tokens, Bootstrap grids, and fluid JavaScript modules.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the completed frontend to the development team.'
-      }
+        icon: "✅",
+        title: "QA & Device Verification",
+        description:
+          "Conducted rigorous cross-browser testing across mobile and desktop viewpoints to optimize component spacing and script execution speeds.",
+      },
+      {
+        icon: "🚀",
+        title: "Engineering Delivery",
+        description:
+          "Delivered optimized production code blocks over to engineering teams for enterprise server integration.",
+      },
     ],
     features: [
       {
@@ -1243,7 +1405,7 @@ const projects = [
     description:
       "Internal employee feedback system designed to streamline communication, engagement, and workplace improvements.",
     tags: ["Web"],
-    image: "assets/images/projects/vdot/1.png",
+    image: "assets/images/projects/vdot/mockup-1.jpg",
     role: "UI/UX Designer & Developer",
     duration: "2 months",
     client: "Internal Project",
@@ -1256,20 +1418,29 @@ const projects = [
     },
     designProcess: [
       {
-        icon: '💻',
-        title: 'Development',
-        description: 'Built the frontend using React based on provided requirements and designs.'
+        icon: "🔍",
+        title: "UX Strategy & Privacy Patterns",
+        description:
+          "Researched internal feedback collection tools to draft simple submission paths that balance confidential privacy options with clear resolution metrics.",
       },
       {
-        icon: '✅',
-        title: 'Testing',
-        description: 'Validated feedback submission, tracking, and reporting workflows.'
+        icon: "💻",
+        title: "Frontend Engineering",
+        description:
+          "Developed the semantic React application framework using clean component splitting, managing dynamic form interactions, tracking views, and charts.",
       },
       {
-        icon: '🚀',
-        title: 'Handover',
-        description: 'Delivered the application to the development team for further development.'
-      }
+        icon: "✅",
+        title: "Workflow Verification",
+        description:
+          "Executed extensive scenario testing on anonymous routing inputs, backend data filters, admin action updates, and alert flags.",
+      },
+      {
+        icon: "🚀",
+        title: "Development Handover",
+        description:
+          "Pushed structured codebases to engineering branches, conducting technical handovers for downstream database system attachments.",
+      },
     ],
     features: [
       {
@@ -1301,7 +1472,7 @@ const projects = [
       "assets/images/projects/vdot/2.png",
       "assets/images/projects/vdot/3.png",
       "assets/images/projects/vdot/4.png",
-      "assets/images/projects/vdot/5.png"
+      "assets/images/projects/vdot/5.png",
     ],
   },
 ];

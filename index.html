@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akash Sharma | UI/UX Developer</title>
-
     <!--favicon-->
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
@@ -15,7 +14,9 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Feather Icons -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -75,14 +76,16 @@
         <div id="homePage" class="page-content active">
             <!-- HERO SECTION -->
             <section class="hero">
+                <div class="hero-grid-bg"></div>
                 <div class="container-custom">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="hero-content">
-                                <h1><span>Hi,</span> I'm Akash, <span>UI/UX Developer</span></h1>
-                                <p class="value-prop">Creating clean, impactful designs and turning them into responsive
-                                    web pages. Specialized in UI/UX Design, Frontend Development, and AI-powered
-                                    business applications</p>
+                                <div class="hero-eyebrow">Available for new opportunities</div>
+                                <h1>Hi, I'm <span class="name-highlight">Akash</span><span class="role-text">UI/UX
+                                        Developer &amp; Designer</span></h1>
+                                <p class="value-prop">Transforming complex business requirements into clean, responsive
+                                    interfaces — from Figma wireframes to pixel-perfect production code.</p>
                                 <div class="hero-actions mb-4">
                                     <button class="btn-primary" onclick="navigateTo('#projects')">View My Work</button>
                                     <!-- <button class="btn-secondary" onclick="window.open('#download')">Download
@@ -91,22 +94,29 @@
                                         Download Resume
                                     </a>
                                 </div>
-                                <div class="footer-social">
+                                <div class="hero-social-row">
                                     <a href="https://www.linkedin.com/in/akash-sharma1/" target="_blank"
                                         rel="noopener noreferrer" class="social-link" title="LinkedIn">
-                                        <i data-feather="linkedin" style="width: 20px; height: 20px;"></i>
+                                        <i data-feather="linkedin" style="width: 18px; height: 18px;"></i>
                                     </a>
                                     <a href="mailto:aksharma01568@gmail.com" class="social-link" title="Email">
-                                        <i data-feather="mail" style="width: 20px; height: 20px;"></i>
+                                        <i data-feather="mail" style="width: 18px; height: 18px;"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="hero-visual">
+                                <div class="hero-badge badge-top-left">
+                                    <span class="badge-dot"></span> Open to work
+                                </div>
                                 <div class="blob-gradient" style="overflow:hidden">
                                     <img src="img-placeholder.png" alt="Akash Sharma"
                                         style="width: 100%; object-fit: fit; border-radius: 50%;">
+                                </div>
+                                <div class="hero-badge badge-bottom-right">
+                                    <i data-feather="star" style="width:14px;height:14px;color:var(--accent)"></i> 6+
+                                    Years Experience
                                 </div>
                             </div>
                         </div>
@@ -119,6 +129,7 @@
                 <div class="container-custom">
                     <div class="about-content">
                         <div>
+                            <div class="section-eyebrow">About Me</div>
                             <p class="about-bio">I'm a UI/UX Developer with 6+ years of experience in transforming
                                 complex business requirements into clean and responsive interfaces.
                             </p>
@@ -164,6 +175,7 @@
             <section id="skills" class="skills-section">
                 <div class="container-custom">
                     <div class="section-title">
+                        <div class="section-eyebrow">Expertise</div>
                         <h2>My Skills</h2>
                         <p>Tools and technologies I master</p>
                     </div>
@@ -177,8 +189,12 @@
                                 <div class="skill-name">UI/UX Design</div>
                             </div>
                             <div class="proficiency-label">
-                                Wireframing, Prototyping,
-                                User-Centered Design
+                                Wireframing, Prototyping, User-Centered Design
+                            </div>
+                            <div class="skill-chips">
+                                <span class="skill-chip">Figma</span>
+                                <span class="skill-chip">Wireframes</span>
+                                <span class="skill-chip">Prototyping</span>
                             </div>
                         </div>
 
@@ -192,6 +208,11 @@
                             <div class="proficiency-label">
                                 Figma, Adobe XD, Photoshop, Illustrator, FigJam, Canva
                             </div>
+                            <div class="skill-chips">
+                                <span class="skill-chip">Adobe XD</span>
+                                <span class="skill-chip">Photoshop</span>
+                                <span class="skill-chip">FigJam</span>
+                            </div>
                         </div>
 
                         <div class="skill-card">
@@ -204,8 +225,12 @@
                             <div class="proficiency-label">
                                 HTML5, CSS3, JS, TypeScript, Bootstrap, Tailwind CSS, React.js, Next.js
                             </div>
+                            <div class="skill-chips">
+                                <span class="skill-chip">React.js</span>
+                                <span class="skill-chip">Next.js</span>
+                                <span class="skill-chip">Tailwind</span>
+                            </div>
                         </div>
-
 
                         <div class="skill-card">
                             <div class="skill-icon">
@@ -217,6 +242,11 @@
                             <div class="proficiency-label">
                                 Jira, Bitbucket, Git
                             </div>
+                            <div class="skill-chips">
+                                <span class="skill-chip">Jira</span>
+                                <span class="skill-chip">Git</span>
+                                <span class="skill-chip">Bitbucket</span>
+                            </div>
                         </div>
 
                     </div>
@@ -227,6 +257,7 @@
             <section id="projects" class="projects-section">
                 <div class="container-custom">
                     <div class="section-title">
+                        <div class="section-eyebrow">Portfolio</div>
                         <h2>Featured Projects</h2>
                         <p>A selection of recent work I'm proud of</p>
                     </div>
@@ -469,26 +500,45 @@
         // ============================================
         // ROUTING
         // ============================================
-        function navigateTo(path) {
-            // Hide all pages
-            document.querySelectorAll('.page-content').forEach(page => {
-                page.classList.remove('active');
-            });
-            // Handle routing
-            if (path === '/') {
-                document.getElementById('homePage').classList.add('active');
-                window.scrollTo(0, 0);
+
+function navigateTo(path) {
+    // 1. If it's a structural root path or an inner-page section hash
+    if (path === '/' || path.startsWith('#') || ['about', 'skills', 'projects'].includes(path)) {
+        
+        // Ensure the home page container is active so sections are visible
+        document.getElementById('homePage').classList.add('active');
+        
+        // If it's a section, let the browser smoothly scroll to it
+        if (path !== '/') {
+            const targetId = path.startsWith('#') ? path : `#${path}`;
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
             }
-
-            // Update URL
-            window.location.hash = path;
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-
-        // Handle browser back/forward
-        window.addEventListener('hashchange', () => {
-            const path = window.location.hash.slice(1) || '/';
-            navigateTo(path);
+    } else {
+        // 2. Handle actual separate sub-pages here if you add them later
+        document.querySelectorAll('.page-content').forEach(page => {
+            page.classList.remove('active');
         });
+        
+        // Example: if (path === 'blog') document.getElementById('blogPage').classList.add('active');
+    }
+
+    // Update URL hash safely without breaking history loop
+    if (window.location.hash !== path && path.startsWith('#')) {
+        window.location.hash = path;
+    }
+}
+
+// Handle browser back/forward buttons
+window.addEventListener('hashchange', () => {
+    // Keep the '#' prefix intact so we can distinguish section IDs from page paths
+    const path = window.location.hash || '/'; 
+    navigateTo(path);
+});
 
         // ============================================
         // INITIALIZATION
