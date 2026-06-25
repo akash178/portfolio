@@ -501,44 +501,44 @@
         // ROUTING
         // ============================================
 
-function navigateTo(path) {
-    // 1. If it's a structural root path or an inner-page section hash
-    if (path === '/' || path.startsWith('#') || ['about', 'skills', 'projects'].includes(path)) {
-        
-        // Ensure the home page container is active so sections are visible
-        document.getElementById('homePage').classList.add('active');
-        
-        // If it's a section, let the browser smoothly scroll to it
-        if (path !== '/') {
-            const targetId = path.startsWith('#') ? path : `#${path}`;
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth' });
+        function navigateTo(path) {
+            // 1. If it's a structural root path or an inner-page section hash
+            if (path === '/' || path.startsWith('#') || ['about', 'skills', 'projects'].includes(path)) {
+
+                // Ensure the home page container is active so sections are visible
+                document.getElementById('homePage').classList.add('active');
+
+                // If it's a section, let the browser smoothly scroll to it
+                if (path !== '/') {
+                    const targetId = path.startsWith('#') ? path : `#${path}`;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            } else {
+                // 2. Handle actual separate sub-pages here if you add them later
+                document.querySelectorAll('.page-content').forEach(page => {
+                    page.classList.remove('active');
+                });
+
+                // Example: if (path === 'blog') document.getElementById('blogPage').classList.add('active');
             }
-        } else {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Update URL hash safely without breaking history loop
+            if (window.location.hash !== path && path.startsWith('#')) {
+                window.location.hash = path;
+            }
         }
-    } else {
-        // 2. Handle actual separate sub-pages here if you add them later
-        document.querySelectorAll('.page-content').forEach(page => {
-            page.classList.remove('active');
+
+        // Handle browser back/forward buttons
+        window.addEventListener('hashchange', () => {
+            // Keep the '#' prefix intact so we can distinguish section IDs from page paths
+            const path = window.location.hash || '/';
+            navigateTo(path);
         });
-        
-        // Example: if (path === 'blog') document.getElementById('blogPage').classList.add('active');
-    }
-
-    // Update URL hash safely without breaking history loop
-    if (window.location.hash !== path && path.startsWith('#')) {
-        window.location.hash = path;
-    }
-}
-
-// Handle browser back/forward buttons
-window.addEventListener('hashchange', () => {
-    // Keep the '#' prefix intact so we can distinguish section IDs from page paths
-    const path = window.location.hash || '/'; 
-    navigateTo(path);
-});
 
         // ============================================
         // INITIALIZATION
